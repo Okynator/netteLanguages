@@ -1,0 +1,23 @@
+services:
+	router: @App\Core\RouterFactory::createRouter
+	myTranslator: App\Moduls\Universal\Model\MyTranslator(defaultLang: 'sk')
+	nette.latteFactory:
+	    setup:
+	        - addfilter('translate', [@myTranslator, 'translate'])
+
+
+session:
+    expiration: '365 days'
+
+
+search:
+	formuláře:
+		in: %appDir%
+		classes:
+		    - *Factory
+		    - *Facade
+
+	model:
+		in: %appDir%
+		classes:
+		    - *Manager

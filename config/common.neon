@@ -1,0 +1,29 @@
+parameters:
+
+
+application:
+	errorPresenter:
+		4xx: Presentation:Error:Error4xx
+		5xx: Presentation:Error:Error5xx
+	mapping:
+	    *: App\Presentation\*\**Presenter
+	    Api: App\Api\*Presenter
+
+
+database:
+	dsn: 'mysql:host=127.0.0.1;dbname=showbet'
+	user: root
+	password:
+
+
+latte:
+	strictTypes: yes
+	strictParsing: yes
+	extensions:
+		- App\Presentation\Accessory\LatteExtension
+
+
+di:
+	export:
+		parameters: no
+		tags: no
