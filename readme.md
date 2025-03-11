@@ -1,15 +1,17 @@
 Nette Web Project
 =================
 
-Welcome to the Nette Web Project! This is a basic skeleton application built using
-[Nette](https://nette.org), ideal for kick-starting your new web projects.
+Vitajte v Nette Web Projekte! Toto je základná šablóna aplikácie postavená na frameworku Nette, ideálna na rýchly štart nových webových projektov.
+O projekte
 
-Nette is a renowned PHP web development framework, celebrated for its user-friendliness,
-robust security, and outstanding performance. It's among the safest choices
-for PHP frameworks out there.
+Táto šablóna obsahuje:
+✅ Nette framework s pripravenou štruktúrou
+✅ Podporu pre viacjazyčný web
+✅ Vzorové nastavenia pre databázu (obsahuje SQL súbor showbet)
 
-If Nette helps you, consider supporting it by [making a donation](https://nette.org/donate).
-Thank you for your generosity!
+Nette je známy PHP framework, oceňovaný pre svoju bezpečnosť, jednoduchosť a vysoký výkon.
+
+Ak vám Nette pomáha, zvážte jeho podporu darom. Ďakujeme! 🚀
 
 
 Requirements
